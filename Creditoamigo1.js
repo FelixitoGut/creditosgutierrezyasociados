@@ -38,13 +38,13 @@ const DATABASE = [
     // 3. cliente tercero.
 
 {
-        telefono: "00000000",
-        password: "0000",
+        telefono: "83867103",
+        password: "2025",
         rol: "CLIENTE",
-        nombre: "Nombre y Apellido",
-        cedula: "cedula",
-        credito: 000,
-        pendiente: 0000,
+        nombre: "Yesenia Gutierrez",
+        cedula: "281-180580-0018T",
+        credito: 5000,
+        pendiente: 4200,
         pagos: [
             { canon: 1, monto: 1160.00, vencimiento: "30 nov 2025", estado: "ABONADO" },
             { canon: 2, monto: 1160.00, vencimiento: "15 dic 2026", estado: "PENDIENTE" },
