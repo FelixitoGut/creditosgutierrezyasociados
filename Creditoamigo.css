@@ -1,0 +1,202 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5; /* Fondo suave */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --- Estilos de Login --- */
+#login-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+#login-container h1 {
+    color: #173f5f;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2ecc71;
+    padding-bottom: 10px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #2ecc71;
+    outline: none;
+}
+
+.nota-demo {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
+
+/* --- Estilos Generales --- */
+.hidden {
+    display: none !important;
+}
+
+.btn-primary {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #27ae60;
+}
+
+/* --- Estilos del Contenedor de Datos --- */
+#data-container {
+    width: 90%;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #173f5f;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+main {
+    padding: 30px;
+}
+
+.client-detail p {
+    margin: 5px 0;
+}
+
+.section-title {
+    margin-top: 30px;
+    color: #173f5f;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.rol-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.rol-tag.CLIENTE {
+    background-color: #e6f7ff;
+    color: #096dd9;
+}
+
+.rol-tag.ADMIN {
+    background-color: #fff1f0;
+    color: #f5222d;
+}
+
+.btn-add {
+    float: right;
+    margin-top: -50px;
+    background-color: #faad14;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* --- Tabla de Pagos --- */
+.payments-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payments-table th, .payments-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.payments-table th {
+    background-color: #f7f7f7;
+    font-weight: 600;
+    color: #173f5f;
+}
+
+.status-tag {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status-tag.PAGADO {
+    background-color: #e6ffe6;
+    color: #27ae60;
+}
+
+.status-tag.PENDIENTE {
+    background-color: #fffbe6;
+    color: #faad14;
+}
+
+.btn-edit {
+    background-color: #faad14;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
